@@ -28,97 +28,97 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.Button button6;
-            System.Windows.Forms.Button button1;
-            System.Windows.Forms.Button button2;
-            System.Windows.Forms.Button button3;
-            System.Windows.Forms.Button button4;
-            System.Windows.Forms.Button button5;
-            button6 = new System.Windows.Forms.Button();
-            button1 = new System.Windows.Forms.Button();
-            button2 = new System.Windows.Forms.Button();
-            button3 = new System.Windows.Forms.Button();
-            button4 = new System.Windows.Forms.Button();
-            button5 = new System.Windows.Forms.Button();
+            System.Windows.Forms.Button back25ban;
+            System.Windows.Forms.Button info25ban;
+            System.Windows.Forms.Button skills25ban;
+            System.Windows.Forms.Button educ25ban;
+            System.Windows.Forms.Button hobbies25ban;
+            System.Windows.Forms.Button msg25ban;
+            back25ban = new System.Windows.Forms.Button();
+            info25ban = new System.Windows.Forms.Button();
+            skills25ban = new System.Windows.Forms.Button();
+            educ25ban = new System.Windows.Forms.Button();
+            hobbies25ban = new System.Windows.Forms.Button();
+            msg25ban = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button6
+            // back25ban
             // 
-            button6.BackColor = System.Drawing.Color.Transparent;
-            button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            button6.ForeColor = System.Drawing.Color.Transparent;
-            button6.Location = new System.Drawing.Point(2, 5);
-            button6.Name = "button6";
-            button6.Size = new System.Drawing.Size(119, 40);
-            button6.TabIndex = 32;
-            button6.Text = "+";
-            button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            button6.UseVisualStyleBackColor = false;
+            back25ban.BackColor = System.Drawing.Color.Transparent;
+            back25ban.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            back25ban.ForeColor = System.Drawing.Color.Transparent;
+            back25ban.Location = new System.Drawing.Point(2, 5);
+            back25ban.Name = "back25ban";
+            back25ban.Size = new System.Drawing.Size(119, 40);
+            back25ban.TabIndex = 32;
+            back25ban.Text = "+";
+            back25ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            back25ban.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // info25ban
             // 
-            button1.BackColor = System.Drawing.Color.Transparent;
-            button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            button1.ForeColor = System.Drawing.Color.Transparent;
-            button1.Location = new System.Drawing.Point(602, 243);
-            button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(72, 62);
-            button1.TabIndex = 36;
-            button1.Text = "+";
-            button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            button1.UseVisualStyleBackColor = false;
+            info25ban.BackColor = System.Drawing.Color.Transparent;
+            info25ban.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            info25ban.ForeColor = System.Drawing.Color.Transparent;
+            info25ban.Location = new System.Drawing.Point(602, 243);
+            info25ban.Name = "info25ban";
+            info25ban.Size = new System.Drawing.Size(72, 62);
+            info25ban.TabIndex = 36;
+            info25ban.Text = "+";
+            info25ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            info25ban.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // skills25ban
             // 
-            button2.BackColor = System.Drawing.Color.Transparent;
-            button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            button2.ForeColor = System.Drawing.Color.Transparent;
-            button2.Location = new System.Drawing.Point(680, 243);
-            button2.Name = "button2";
-            button2.Size = new System.Drawing.Size(72, 62);
-            button2.TabIndex = 37;
-            button2.Text = "+";
-            button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            button2.UseVisualStyleBackColor = false;
+            skills25ban.BackColor = System.Drawing.Color.Transparent;
+            skills25ban.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            skills25ban.ForeColor = System.Drawing.Color.Transparent;
+            skills25ban.Location = new System.Drawing.Point(680, 243);
+            skills25ban.Name = "skills25ban";
+            skills25ban.Size = new System.Drawing.Size(72, 62);
+            skills25ban.TabIndex = 37;
+            skills25ban.Text = "+";
+            skills25ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            skills25ban.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // educ25ban
             // 
-            button3.BackColor = System.Drawing.Color.Transparent;
-            button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            button3.ForeColor = System.Drawing.Color.Transparent;
-            button3.Location = new System.Drawing.Point(758, 243);
-            button3.Name = "button3";
-            button3.Size = new System.Drawing.Size(72, 62);
-            button3.TabIndex = 38;
-            button3.Text = "+";
-            button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            button3.UseVisualStyleBackColor = false;
+            educ25ban.BackColor = System.Drawing.Color.Transparent;
+            educ25ban.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            educ25ban.ForeColor = System.Drawing.Color.Transparent;
+            educ25ban.Location = new System.Drawing.Point(758, 243);
+            educ25ban.Name = "educ25ban";
+            educ25ban.Size = new System.Drawing.Size(72, 62);
+            educ25ban.TabIndex = 38;
+            educ25ban.Text = "+";
+            educ25ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            educ25ban.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // hobbies25ban
             // 
-            button4.BackColor = System.Drawing.Color.Transparent;
-            button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            button4.ForeColor = System.Drawing.Color.Transparent;
-            button4.Location = new System.Drawing.Point(836, 243);
-            button4.Name = "button4";
-            button4.Size = new System.Drawing.Size(72, 62);
-            button4.TabIndex = 39;
-            button4.Text = "+";
-            button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            button4.UseVisualStyleBackColor = false;
+            hobbies25ban.BackColor = System.Drawing.Color.Transparent;
+            hobbies25ban.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            hobbies25ban.ForeColor = System.Drawing.Color.Transparent;
+            hobbies25ban.Location = new System.Drawing.Point(836, 243);
+            hobbies25ban.Name = "hobbies25ban";
+            hobbies25ban.Size = new System.Drawing.Size(72, 62);
+            hobbies25ban.TabIndex = 39;
+            hobbies25ban.Text = "+";
+            hobbies25ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            hobbies25ban.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // msg25ban
             // 
-            button5.BackColor = System.Drawing.Color.Transparent;
-            button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            button5.ForeColor = System.Drawing.Color.Transparent;
-            button5.Location = new System.Drawing.Point(914, 243);
-            button5.Name = "button5";
-            button5.Size = new System.Drawing.Size(72, 62);
-            button5.TabIndex = 40;
-            button5.Text = "+";
-            button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            button5.UseVisualStyleBackColor = false;
+            msg25ban.BackColor = System.Drawing.Color.Transparent;
+            msg25ban.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            msg25ban.ForeColor = System.Drawing.Color.Transparent;
+            msg25ban.Location = new System.Drawing.Point(914, 243);
+            msg25ban.Name = "msg25ban";
+            msg25ban.Size = new System.Drawing.Size(72, 62);
+            msg25ban.TabIndex = 40;
+            msg25ban.Text = "+";
+            msg25ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            msg25ban.UseVisualStyleBackColor = false;
             // 
             // Form25
             // 
@@ -126,12 +126,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::portfolio.Properties.Resources._F1C6BE03_15F2_4B39_93C2_06AC97B98597_;
             this.ClientSize = new System.Drawing.Size(1026, 522);
-            this.Controls.Add(button5);
-            this.Controls.Add(button4);
-            this.Controls.Add(button3);
-            this.Controls.Add(button2);
-            this.Controls.Add(button1);
-            this.Controls.Add(button6);
+            this.Controls.Add(msg25ban);
+            this.Controls.Add(hobbies25ban);
+            this.Controls.Add(educ25ban);
+            this.Controls.Add(skills25ban);
+            this.Controls.Add(info25ban);
+            this.Controls.Add(back25ban);
             this.Name = "Form25";
             this.Text = "Form25";
             this.ResumeLayout(false);

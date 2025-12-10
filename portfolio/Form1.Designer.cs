@@ -35,16 +35,16 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.picture5 = new System.Windows.Forms.PictureBox();
-            this.picture4 = new System.Windows.Forms.PictureBox();
-            this.picture3 = new System.Windows.Forms.PictureBox();
-            this.picture2 = new System.Windows.Forms.PictureBox();
-            this.picture1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.picture5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picture4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picture3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picture2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picture1)).BeginInit();
+            this.ban1fighter = new System.Windows.Forms.PictureBox();
+            this.cj1fighter = new System.Windows.Forms.PictureBox();
+            this.mhika1fighter = new System.Windows.Forms.PictureBox();
+            this.sua1fighter = new System.Windows.Forms.PictureBox();
+            this.bont1fighter = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.ban1fighter)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cj1fighter)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mhika1fighter)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sua1fighter)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bont1fighter)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -123,65 +123,65 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(101, 34);
             this.button5.TabIndex = 15;
-            this.button5.Text = "BANANIQ";
+            this.button5.Text = "BANANIA";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // picture5
+            // ban1fighter
             // 
-            this.picture5.ErrorImage = global::portfolio.Properties.Resources.banni1a11;
-            this.picture5.Image = global::portfolio.Properties.Resources.banni1a11;
-            this.picture5.Location = new System.Drawing.Point(642, 155);
-            this.picture5.Name = "picture5";
-            this.picture5.Size = new System.Drawing.Size(134, 229);
-            this.picture5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picture5.TabIndex = 5;
-            this.picture5.TabStop = false;
-            this.picture5.Click += new System.EventHandler(this.pictureBox5_Click);
+            this.ban1fighter.ErrorImage = global::portfolio.Properties.Resources.banni1a11;
+            this.ban1fighter.Image = global::portfolio.Properties.Resources.banni1a11;
+            this.ban1fighter.Location = new System.Drawing.Point(642, 155);
+            this.ban1fighter.Name = "ban1fighter";
+            this.ban1fighter.Size = new System.Drawing.Size(134, 229);
+            this.ban1fighter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ban1fighter.TabIndex = 5;
+            this.ban1fighter.TabStop = false;
+            this.ban1fighter.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
-            // picture4
+            // cj1fighter
             // 
-            this.picture4.Image = global::portfolio.Properties.Resources.cjay11;
-            this.picture4.Location = new System.Drawing.Point(477, 155);
-            this.picture4.Name = "picture4";
-            this.picture4.Size = new System.Drawing.Size(150, 229);
-            this.picture4.TabIndex = 4;
-            this.picture4.TabStop = false;
-            this.picture4.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.cj1fighter.Image = global::portfolio.Properties.Resources.cjay11;
+            this.cj1fighter.Location = new System.Drawing.Point(477, 155);
+            this.cj1fighter.Name = "cj1fighter";
+            this.cj1fighter.Size = new System.Drawing.Size(150, 229);
+            this.cj1fighter.TabIndex = 4;
+            this.cj1fighter.TabStop = false;
+            this.cj1fighter.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // picture3
+            // mhika1fighter
             // 
-            this.picture3.Image = global::portfolio.Properties.Resources.aki2;
-            this.picture3.Location = new System.Drawing.Point(328, 155);
-            this.picture3.Name = "picture3";
-            this.picture3.Size = new System.Drawing.Size(134, 229);
-            this.picture3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picture3.TabIndex = 3;
-            this.picture3.TabStop = false;
+            this.mhika1fighter.Image = global::portfolio.Properties.Resources.aki2;
+            this.mhika1fighter.Location = new System.Drawing.Point(328, 155);
+            this.mhika1fighter.Name = "mhika1fighter";
+            this.mhika1fighter.Size = new System.Drawing.Size(134, 229);
+            this.mhika1fighter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.mhika1fighter.TabIndex = 3;
+            this.mhika1fighter.TabStop = false;
             // 
-            // picture2
+            // sua1fighter
             // 
-            this.picture2.ErrorImage = global::portfolio.Properties.Resources.mark11;
-            this.picture2.Image = global::portfolio.Properties.Resources.mark11;
-            this.picture2.InitialImage = ((System.Drawing.Image)(resources.GetObject("picture2.InitialImage")));
-            this.picture2.Location = new System.Drawing.Point(178, 155);
-            this.picture2.Name = "picture2";
-            this.picture2.Size = new System.Drawing.Size(144, 229);
-            this.picture2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picture2.TabIndex = 2;
-            this.picture2.TabStop = false;
-            this.picture2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.sua1fighter.ErrorImage = global::portfolio.Properties.Resources.mark11;
+            this.sua1fighter.Image = global::portfolio.Properties.Resources.mark11;
+            this.sua1fighter.InitialImage = ((System.Drawing.Image)(resources.GetObject("sua1fighter.InitialImage")));
+            this.sua1fighter.Location = new System.Drawing.Point(178, 155);
+            this.sua1fighter.Name = "sua1fighter";
+            this.sua1fighter.Size = new System.Drawing.Size(144, 229);
+            this.sua1fighter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sua1fighter.TabIndex = 2;
+            this.sua1fighter.TabStop = false;
+            this.sua1fighter.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // picture1
+            // bont1fighter
             // 
-            this.picture1.Image = global::portfolio.Properties.Resources.bont1;
-            this.picture1.Location = new System.Drawing.Point(23, 155);
-            this.picture1.Name = "picture1";
-            this.picture1.Size = new System.Drawing.Size(140, 229);
-            this.picture1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picture1.TabIndex = 1;
-            this.picture1.TabStop = false;
-            this.picture1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.bont1fighter.Image = global::portfolio.Properties.Resources.bont1;
+            this.bont1fighter.Location = new System.Drawing.Point(23, 155);
+            this.bont1fighter.Name = "bont1fighter";
+            this.bont1fighter.Size = new System.Drawing.Size(140, 229);
+            this.bont1fighter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.bont1fighter.TabIndex = 1;
+            this.bont1fighter.TabStop = false;
+            this.bont1fighter.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form1
             // 
@@ -194,19 +194,19 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.picture5);
-            this.Controls.Add(this.picture4);
-            this.Controls.Add(this.picture3);
-            this.Controls.Add(this.picture2);
-            this.Controls.Add(this.picture1);
+            this.Controls.Add(this.ban1fighter);
+            this.Controls.Add(this.cj1fighter);
+            this.Controls.Add(this.mhika1fighter);
+            this.Controls.Add(this.sua1fighter);
+            this.Controls.Add(this.bont1fighter);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.picture5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picture4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picture3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picture2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picture1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ban1fighter)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cj1fighter)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mhika1fighter)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sua1fighter)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bont1fighter)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,11 +215,11 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox picture1;
-        private System.Windows.Forms.PictureBox picture2;
-        private System.Windows.Forms.PictureBox picture3;
-        private System.Windows.Forms.PictureBox picture4;
-        private System.Windows.Forms.PictureBox picture5;
+        private System.Windows.Forms.PictureBox bont1fighter;
+        private System.Windows.Forms.PictureBox sua1fighter;
+        private System.Windows.Forms.PictureBox mhika1fighter;
+        private System.Windows.Forms.PictureBox cj1fighter;
+        private System.Windows.Forms.PictureBox ban1fighter;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;

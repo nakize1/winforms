@@ -28,97 +28,97 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.Button button1;
-            System.Windows.Forms.Button button2;
-            System.Windows.Forms.Button button3;
-            System.Windows.Forms.Button button4;
-            System.Windows.Forms.Button button5;
-            System.Windows.Forms.Button button6;
-            button1 = new System.Windows.Forms.Button();
-            button2 = new System.Windows.Forms.Button();
-            button3 = new System.Windows.Forms.Button();
-            button4 = new System.Windows.Forms.Button();
-            button5 = new System.Windows.Forms.Button();
-            button6 = new System.Windows.Forms.Button();
+            System.Windows.Forms.Button info6bon;
+            System.Windows.Forms.Button skills6bon;
+            System.Windows.Forms.Button educ6bon;
+            System.Windows.Forms.Button hobbies6bon;
+            System.Windows.Forms.Button msg6bon;
+            System.Windows.Forms.Button back6bon;
+            info6bon = new System.Windows.Forms.Button();
+            skills6bon = new System.Windows.Forms.Button();
+            educ6bon = new System.Windows.Forms.Button();
+            hobbies6bon = new System.Windows.Forms.Button();
+            msg6bon = new System.Windows.Forms.Button();
+            back6bon = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // info6bon
             // 
-            button1.BackColor = System.Drawing.Color.Transparent;
-            button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            button1.ForeColor = System.Drawing.Color.Gray;
-            button1.Location = new System.Drawing.Point(588, 243);
-            button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(75, 62);
-            button1.TabIndex = 4;
-            button1.Text = "+";
-            button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            button1.UseVisualStyleBackColor = false;
+            info6bon.BackColor = System.Drawing.Color.Transparent;
+            info6bon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            info6bon.ForeColor = System.Drawing.Color.Gray;
+            info6bon.Location = new System.Drawing.Point(588, 243);
+            info6bon.Name = "info6bon";
+            info6bon.Size = new System.Drawing.Size(75, 62);
+            info6bon.TabIndex = 4;
+            info6bon.Text = "+";
+            info6bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            info6bon.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // skills6bon
             // 
-            button2.BackColor = System.Drawing.Color.Transparent;
-            button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            button2.ForeColor = System.Drawing.Color.Gray;
-            button2.Location = new System.Drawing.Point(669, 243);
-            button2.Name = "button2";
-            button2.Size = new System.Drawing.Size(70, 62);
-            button2.TabIndex = 5;
-            button2.Text = "+";
-            button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            button2.UseVisualStyleBackColor = false;
+            skills6bon.BackColor = System.Drawing.Color.Transparent;
+            skills6bon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            skills6bon.ForeColor = System.Drawing.Color.Gray;
+            skills6bon.Location = new System.Drawing.Point(669, 243);
+            skills6bon.Name = "skills6bon";
+            skills6bon.Size = new System.Drawing.Size(70, 62);
+            skills6bon.TabIndex = 5;
+            skills6bon.Text = "+";
+            skills6bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            skills6bon.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // educ6bon
             // 
-            button3.BackColor = System.Drawing.Color.Transparent;
-            button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            button3.ForeColor = System.Drawing.Color.Gray;
-            button3.Location = new System.Drawing.Point(745, 243);
-            button3.Name = "button3";
-            button3.Size = new System.Drawing.Size(68, 62);
-            button3.TabIndex = 6;
-            button3.Text = "+";
-            button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            button3.UseVisualStyleBackColor = false;
+            educ6bon.BackColor = System.Drawing.Color.Transparent;
+            educ6bon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            educ6bon.ForeColor = System.Drawing.Color.Gray;
+            educ6bon.Location = new System.Drawing.Point(745, 243);
+            educ6bon.Name = "educ6bon";
+            educ6bon.Size = new System.Drawing.Size(68, 62);
+            educ6bon.TabIndex = 6;
+            educ6bon.Text = "+";
+            educ6bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            educ6bon.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // hobbies6bon
             // 
-            button4.BackColor = System.Drawing.Color.Transparent;
-            button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            button4.ForeColor = System.Drawing.Color.Gray;
-            button4.Location = new System.Drawing.Point(826, 243);
-            button4.Name = "button4";
-            button4.Size = new System.Drawing.Size(62, 62);
-            button4.TabIndex = 7;
-            button4.Text = "+";
-            button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            button4.UseVisualStyleBackColor = false;
+            hobbies6bon.BackColor = System.Drawing.Color.Transparent;
+            hobbies6bon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            hobbies6bon.ForeColor = System.Drawing.Color.Gray;
+            hobbies6bon.Location = new System.Drawing.Point(826, 243);
+            hobbies6bon.Name = "hobbies6bon";
+            hobbies6bon.Size = new System.Drawing.Size(62, 62);
+            hobbies6bon.TabIndex = 7;
+            hobbies6bon.Text = "+";
+            hobbies6bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            hobbies6bon.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // msg6bon
             // 
-            button5.BackColor = System.Drawing.Color.Transparent;
-            button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            button5.ForeColor = System.Drawing.Color.Gray;
-            button5.Location = new System.Drawing.Point(894, 243);
-            button5.Name = "button5";
-            button5.Size = new System.Drawing.Size(75, 62);
-            button5.TabIndex = 8;
-            button5.Text = "+";
-            button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            button5.UseVisualStyleBackColor = false;
+            msg6bon.BackColor = System.Drawing.Color.Transparent;
+            msg6bon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            msg6bon.ForeColor = System.Drawing.Color.Gray;
+            msg6bon.Location = new System.Drawing.Point(894, 243);
+            msg6bon.Name = "msg6bon";
+            msg6bon.Size = new System.Drawing.Size(75, 62);
+            msg6bon.TabIndex = 8;
+            msg6bon.Text = "+";
+            msg6bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            msg6bon.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // back6bon
             // 
-            button6.BackColor = System.Drawing.Color.Transparent;
-            button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            button6.ForeColor = System.Drawing.Color.Transparent;
-            button6.Location = new System.Drawing.Point(29, 10);
-            button6.Name = "button6";
-            button6.Size = new System.Drawing.Size(100, 40);
-            button6.TabIndex = 9;
-            button6.Text = "+";
-            button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            button6.UseVisualStyleBackColor = false;
+            back6bon.BackColor = System.Drawing.Color.Transparent;
+            back6bon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            back6bon.ForeColor = System.Drawing.Color.Transparent;
+            back6bon.Location = new System.Drawing.Point(29, 10);
+            back6bon.Name = "back6bon";
+            back6bon.Size = new System.Drawing.Size(100, 40);
+            back6bon.TabIndex = 9;
+            back6bon.Text = "+";
+            back6bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            back6bon.UseVisualStyleBackColor = false;
             // 
             // Form6
             // 
@@ -126,12 +126,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::portfolio.Properties.Resources._7FBBF1F8_8BE7_4E5E_BE21_EE0A37644770_;
             this.ClientSize = new System.Drawing.Size(1022, 537);
-            this.Controls.Add(button6);
-            this.Controls.Add(button5);
-            this.Controls.Add(button4);
-            this.Controls.Add(button3);
-            this.Controls.Add(button2);
-            this.Controls.Add(button1);
+            this.Controls.Add(back6bon);
+            this.Controls.Add(msg6bon);
+            this.Controls.Add(hobbies6bon);
+            this.Controls.Add(educ6bon);
+            this.Controls.Add(skills6bon);
+            this.Controls.Add(info6bon);
             this.Name = "Form6";
             this.Text = "Form6";
             this.ResumeLayout(false);
