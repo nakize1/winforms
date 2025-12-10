@@ -30,16 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
-            this.picture5 = new System.Windows.Forms.PictureBox();
-            this.picture4 = new System.Windows.Forms.PictureBox();
-            this.picture3 = new System.Windows.Forms.PictureBox();
-            this.picture2 = new System.Windows.Forms.PictureBox();
-            this.picture1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.picture5 = new System.Windows.Forms.PictureBox();
+            this.picture4 = new System.Windows.Forms.PictureBox();
+            this.picture3 = new System.Windows.Forms.PictureBox();
+            this.picture2 = new System.Windows.Forms.PictureBox();
+            this.picture1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picture5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture3)).BeginInit();
@@ -60,62 +60,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "CHOOSE YOUR FIGHTER";
             this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // picture5
-            // 
-            this.picture5.ErrorImage = global::portfolio.Properties.Resources.banni1a11;
-            this.picture5.Image = global::portfolio.Properties.Resources.banni1a11;
-            this.picture5.Location = new System.Drawing.Point(642, 155);
-            this.picture5.Name = "picture5";
-            this.picture5.Size = new System.Drawing.Size(134, 229);
-            this.picture5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picture5.TabIndex = 5;
-            this.picture5.TabStop = false;
-            this.picture5.Click += new System.EventHandler(this.pictureBox5_Click);
-            // 
-            // picture4
-            // 
-            this.picture4.Image = global::portfolio.Properties.Resources.cjay11;
-            this.picture4.Location = new System.Drawing.Point(477, 155);
-            this.picture4.Name = "picture4";
-            this.picture4.Size = new System.Drawing.Size(150, 229);
-            this.picture4.TabIndex = 4;
-            this.picture4.TabStop = false;
-            this.picture4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // picture3
-            // 
-            this.picture3.Image = global::portfolio.Properties.Resources.aki2;
-            this.picture3.Location = new System.Drawing.Point(328, 155);
-            this.picture3.Name = "picture3";
-            this.picture3.Size = new System.Drawing.Size(134, 229);
-            this.picture3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picture3.TabIndex = 3;
-            this.picture3.TabStop = false;
-            // 
-            // picture2
-            // 
-            this.picture2.ErrorImage = global::portfolio.Properties.Resources.mark11;
-            this.picture2.Image = global::portfolio.Properties.Resources.mark11;
-            this.picture2.InitialImage = ((System.Drawing.Image)(resources.GetObject("picture2.InitialImage")));
-            this.picture2.Location = new System.Drawing.Point(178, 155);
-            this.picture2.Name = "picture2";
-            this.picture2.Size = new System.Drawing.Size(144, 229);
-            this.picture2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picture2.TabIndex = 2;
-            this.picture2.TabStop = false;
-            this.picture2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // picture1
-            // 
-            this.picture1.Image = global::portfolio.Properties.Resources.bont1;
-            this.picture1.Location = new System.Drawing.Point(23, 155);
-            this.picture1.Name = "picture1";
-            this.picture1.Size = new System.Drawing.Size(140, 229);
-            this.picture1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picture1.TabIndex = 1;
-            this.picture1.TabStop = false;
-            this.picture1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // button1
             // 
@@ -179,8 +123,65 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(101, 34);
             this.button5.TabIndex = 15;
-            this.button5.Text = "BANANIA";
+            this.button5.Text = "BANANIQ";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // picture5
+            // 
+            this.picture5.ErrorImage = global::portfolio.Properties.Resources.banni1a11;
+            this.picture5.Image = global::portfolio.Properties.Resources.banni1a11;
+            this.picture5.Location = new System.Drawing.Point(642, 155);
+            this.picture5.Name = "picture5";
+            this.picture5.Size = new System.Drawing.Size(134, 229);
+            this.picture5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picture5.TabIndex = 5;
+            this.picture5.TabStop = false;
+            this.picture5.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
+            // picture4
+            // 
+            this.picture4.Image = global::portfolio.Properties.Resources.cjay11;
+            this.picture4.Location = new System.Drawing.Point(477, 155);
+            this.picture4.Name = "picture4";
+            this.picture4.Size = new System.Drawing.Size(150, 229);
+            this.picture4.TabIndex = 4;
+            this.picture4.TabStop = false;
+            this.picture4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
+            // picture3
+            // 
+            this.picture3.Image = global::portfolio.Properties.Resources.aki2;
+            this.picture3.Location = new System.Drawing.Point(328, 155);
+            this.picture3.Name = "picture3";
+            this.picture3.Size = new System.Drawing.Size(134, 229);
+            this.picture3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picture3.TabIndex = 3;
+            this.picture3.TabStop = false;
+            // 
+            // picture2
+            // 
+            this.picture2.ErrorImage = global::portfolio.Properties.Resources.mark11;
+            this.picture2.Image = global::portfolio.Properties.Resources.mark11;
+            this.picture2.InitialImage = ((System.Drawing.Image)(resources.GetObject("picture2.InitialImage")));
+            this.picture2.Location = new System.Drawing.Point(178, 155);
+            this.picture2.Name = "picture2";
+            this.picture2.Size = new System.Drawing.Size(144, 229);
+            this.picture2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picture2.TabIndex = 2;
+            this.picture2.TabStop = false;
+            this.picture2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // picture1
+            // 
+            this.picture1.Image = global::portfolio.Properties.Resources.bont1;
+            this.picture1.Location = new System.Drawing.Point(23, 155);
+            this.picture1.Name = "picture1";
+            this.picture1.Size = new System.Drawing.Size(140, 229);
+            this.picture1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picture1.TabIndex = 1;
+            this.picture1.TabStop = false;
+            this.picture1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form1
             // 

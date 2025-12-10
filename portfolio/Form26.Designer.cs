@@ -1,0 +1,143 @@
+﻿namespace portfolio
+{
+    partial class Form26
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.Windows.Forms.Button button6;
+            System.Windows.Forms.Button button1;
+            System.Windows.Forms.Button button2;
+            System.Windows.Forms.Button button3;
+            System.Windows.Forms.Button button4;
+            System.Windows.Forms.Button button5;
+            button6 = new System.Windows.Forms.Button();
+            button1 = new System.Windows.Forms.Button();
+            button2 = new System.Windows.Forms.Button();
+            button3 = new System.Windows.Forms.Button();
+            button4 = new System.Windows.Forms.Button();
+            button5 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // button6
+            // 
+            button6.BackColor = System.Drawing.Color.Transparent;
+            button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            button6.ForeColor = System.Drawing.Color.Transparent;
+            button6.Location = new System.Drawing.Point(3, 4);
+            button6.Name = "button6";
+            button6.Size = new System.Drawing.Size(119, 40);
+            button6.TabIndex = 32;
+            button6.Text = "+";
+            button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            button6.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = System.Drawing.Color.Transparent;
+            button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            button1.ForeColor = System.Drawing.Color.Transparent;
+            button1.Location = new System.Drawing.Point(602, 245);
+            button1.Name = "button1";
+            button1.Size = new System.Drawing.Size(72, 62);
+            button1.TabIndex = 37;
+            button1.Text = "+";
+            button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = System.Drawing.Color.Transparent;
+            button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            button2.ForeColor = System.Drawing.Color.Transparent;
+            button2.Location = new System.Drawing.Point(680, 245);
+            button2.Name = "button2";
+            button2.Size = new System.Drawing.Size(72, 62);
+            button2.TabIndex = 38;
+            button2.Text = "+";
+            button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = System.Drawing.Color.Transparent;
+            button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            button3.ForeColor = System.Drawing.Color.Transparent;
+            button3.Location = new System.Drawing.Point(758, 245);
+            button3.Name = "button3";
+            button3.Size = new System.Drawing.Size(72, 62);
+            button3.TabIndex = 39;
+            button3.Text = "+";
+            button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            button4.BackColor = System.Drawing.Color.Transparent;
+            button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            button4.ForeColor = System.Drawing.Color.Transparent;
+            button4.Location = new System.Drawing.Point(836, 245);
+            button4.Name = "button4";
+            button4.Size = new System.Drawing.Size(72, 62);
+            button4.TabIndex = 40;
+            button4.Text = "+";
+            button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            button5.BackColor = System.Drawing.Color.Transparent;
+            button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            button5.ForeColor = System.Drawing.Color.Transparent;
+            button5.Location = new System.Drawing.Point(914, 245);
+            button5.Name = "button5";
+            button5.Size = new System.Drawing.Size(72, 62);
+            button5.TabIndex = 41;
+            button5.Text = "+";
+            button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            button5.UseVisualStyleBackColor = false;
+            // 
+            // Form26
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::portfolio.Properties.Resources._A3D8EB05_0F82_426B_994D_22BB920C20B1_;
+            this.ClientSize = new System.Drawing.Size(1012, 533);
+            this.Controls.Add(button5);
+            this.Controls.Add(button4);
+            this.Controls.Add(button3);
+            this.Controls.Add(button2);
+            this.Controls.Add(button1);
+            this.Controls.Add(button6);
+            this.Name = "Form26";
+            this.Text = "Form26";
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+    }
+}
