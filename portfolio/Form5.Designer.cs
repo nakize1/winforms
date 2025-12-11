@@ -68,6 +68,7 @@
             skills5bon.Text = "+";
             skills5bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             skills5bon.UseVisualStyleBackColor = false;
+            skills5bon.Click += new System.EventHandler(this.skills5bon_Click);
             // 
             // educ5bon
             // 
@@ -81,6 +82,7 @@
             educ5bon.Text = "+";
             educ5bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             educ5bon.UseVisualStyleBackColor = false;
+            educ5bon.Click += new System.EventHandler(this.educ5bon_Click);
             // 
             // hobbies5bon
             // 
@@ -94,6 +96,7 @@
             hobbies5bon.Text = "+";
             hobbies5bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             hobbies5bon.UseVisualStyleBackColor = false;
+            hobbies5bon.Click += new System.EventHandler(this.hobbies5bon_Click);
             // 
             // msg5bon
             // 
@@ -107,6 +110,7 @@
             msg5bon.Text = "+";
             msg5bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             msg5bon.UseVisualStyleBackColor = false;
+            msg5bon.Click += new System.EventHandler(this.msg5bon_Click);
             // 
             // back5bon
             // 
@@ -120,19 +124,22 @@
             back5bon.Text = "+";
             back5bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             back5bon.UseVisualStyleBackColor = false;
+            back5bon.Click += new System.EventHandler(this.back5bon_Click);
             // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::portfolio.Properties.Resources._8E21350D_869B_492B_B0F9_8801E2014DDA_;
-            this.ClientSize = new System.Drawing.Size(996, 525);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(1147, 645);
             this.Controls.Add(back5bon);
             this.Controls.Add(msg5bon);
             this.Controls.Add(hobbies5bon);
             this.Controls.Add(educ5bon);
             this.Controls.Add(skills5bon);
             this.Controls.Add(info5bon);
+            this.DoubleBuffered = true;
             this.Name = "Form5";
             this.Text = "Form5";
             this.ResumeLayout(false);

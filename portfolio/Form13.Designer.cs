@@ -54,6 +54,7 @@
             info13mh.Text = "+";
             info13mh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             info13mh.UseVisualStyleBackColor = false;
+            info13mh.Click += new System.EventHandler(this.info13mh_Click);
             // 
             // skills13mh
             // 
@@ -67,6 +68,7 @@
             skills13mh.Text = "+";
             skills13mh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             skills13mh.UseVisualStyleBackColor = false;
+            skills13mh.Click += new System.EventHandler(this.skills13mh_Click);
             // 
             // educ13mh
             // 
@@ -80,6 +82,7 @@
             educ13mh.Text = "+";
             educ13mh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             educ13mh.UseVisualStyleBackColor = false;
+            educ13mh.Click += new System.EventHandler(this.educ13mh_Click);
             // 
             // hobbies13mh
             // 
@@ -93,6 +96,7 @@
             hobbies13mh.Text = "+";
             hobbies13mh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             hobbies13mh.UseVisualStyleBackColor = false;
+            hobbies13mh.Click += new System.EventHandler(this.hobbies13mh_Click);
             // 
             // msg13mh
             // 
@@ -106,6 +110,7 @@
             msg13mh.Text = "+";
             msg13mh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             msg13mh.UseVisualStyleBackColor = false;
+            msg13mh.Click += new System.EventHandler(this.msg13mh_Click);
             // 
             // back13mh
             // 
@@ -119,12 +124,14 @@
             back13mh.Text = "+";
             back13mh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             back13mh.UseVisualStyleBackColor = false;
+            back13mh.Click += new System.EventHandler(this.back13mh_Click);
             // 
             // Form13
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::portfolio.Properties.Resources._B6BC00D6_8634_428B_A12F_6F8009501A89_;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1073, 541);
             this.Controls.Add(back13mh);
             this.Controls.Add(msg13mh);
@@ -132,6 +139,7 @@
             this.Controls.Add(educ13mh);
             this.Controls.Add(skills13mh);
             this.Controls.Add(info13mh);
+            this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Name = "Form13";
             this.Text = "Form13";

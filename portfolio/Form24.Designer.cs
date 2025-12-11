@@ -54,6 +54,7 @@
             back.Text = "+";
             back.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             back.UseVisualStyleBackColor = false;
+            back.Click += new System.EventHandler(this.back24_Click);
             // 
             // info24ban
             // 
@@ -67,6 +68,7 @@
             info24ban.Text = "+";
             info24ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             info24ban.UseVisualStyleBackColor = false;
+            info24ban.Click += new System.EventHandler(this.info24_Click);
             // 
             // skills24ban
             // 
@@ -80,6 +82,7 @@
             skills24ban.Text = "+";
             skills24ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             skills24ban.UseVisualStyleBackColor = false;
+            skills24ban.Click += new System.EventHandler(this.skills24_Click);
             // 
             // educ24ban
             // 
@@ -93,6 +96,7 @@
             educ24ban.Text = "+";
             educ24ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             educ24ban.UseVisualStyleBackColor = false;
+            educ24ban.Click += new System.EventHandler(this.educ24_Click);
             // 
             // hobbies24ban
             // 
@@ -106,6 +110,7 @@
             hobbies24ban.Text = "+";
             hobbies24ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             hobbies24ban.UseVisualStyleBackColor = false;
+            hobbies24ban.Click += new System.EventHandler(this.hobbies24_Click);
             // 
             // msg24ban
             // 
@@ -119,12 +124,14 @@
             msg24ban.Text = "+";
             msg24ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             msg24ban.UseVisualStyleBackColor = false;
+            msg24ban.Click += new System.EventHandler(this.msg24_Click);
             // 
             // Form24
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::portfolio.Properties.Resources._95A13EB4_D6C8_43E3_A267_15598380CBBB_;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1018, 529);
             this.Controls.Add(msg24ban);
             this.Controls.Add(hobbies24ban);
@@ -132,6 +139,7 @@
             this.Controls.Add(skills24ban);
             this.Controls.Add(info24ban);
             this.Controls.Add(back);
+            this.DoubleBuffered = true;
             this.Name = "Form24";
             this.Text = "Form24";
             this.ResumeLayout(false);

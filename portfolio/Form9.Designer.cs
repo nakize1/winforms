@@ -56,6 +56,7 @@
             educ9sua.TabIndex = 21;
             educ9sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             educ9sua.UseVisualStyleBackColor = false;
+            educ9sua.Click += new System.EventHandler(this.educ9sua_Click);
             // 
             // skills9sua
             // 
@@ -69,6 +70,7 @@
             skills9sua.TabIndex = 20;
             skills9sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             skills9sua.UseVisualStyleBackColor = false;
+            skills9sua.Click += new System.EventHandler(this.skills9sua_Click);
             // 
             // msg9sua
             // 
@@ -82,6 +84,7 @@
             msg9sua.TabIndex = 19;
             msg9sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             msg9sua.UseVisualStyleBackColor = false;
+            msg9sua.Click += new System.EventHandler(this.msg9sua_Click);
             // 
             // hobbies9sua
             // 
@@ -95,6 +98,7 @@
             hobbies9sua.TabIndex = 18;
             hobbies9sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             hobbies9sua.UseVisualStyleBackColor = false;
+            hobbies9sua.Click += new System.EventHandler(this.hobbies9sua_Click);
             // 
             // info9sua
             // 
@@ -108,7 +112,7 @@
             info9sua.TabIndex = 17;
             info9sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             info9sua.UseVisualStyleBackColor = false;
-            info9sua.Click += new System.EventHandler(this.button2_Click);
+            info9sua.Click += new System.EventHandler(this.info9sua_Click);
             // 
             // back9sua
             // 
@@ -123,6 +127,7 @@
             back9sua.Text = "+";
             back9sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             back9sua.UseVisualStyleBackColor = false;
+            back9sua.Click += new System.EventHandler(this.back9sua_Click);
             // 
             // pictureBox1
             // 
@@ -138,6 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1018, 539);
             this.Controls.Add(back9sua);
             this.Controls.Add(educ9sua);

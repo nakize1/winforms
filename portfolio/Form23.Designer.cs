@@ -67,6 +67,7 @@
             info23ban.Text = "+";
             info23ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             info23ban.UseVisualStyleBackColor = false;
+            info23ban.Click += new System.EventHandler(this.info23_Click);
             // 
             // skills23ban
             // 
@@ -80,6 +81,7 @@
             skills23ban.Text = "+";
             skills23ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             skills23ban.UseVisualStyleBackColor = false;
+            skills23ban.Click += new System.EventHandler(this.skills23_Click);
             // 
             // educ23ban
             // 
@@ -93,6 +95,7 @@
             educ23ban.Text = "+";
             educ23ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             educ23ban.UseVisualStyleBackColor = false;
+            educ23ban.Click += new System.EventHandler(this.educ23_Click);
             // 
             // hobbies23ban
             // 
@@ -106,6 +109,7 @@
             hobbies23ban.Text = "+";
             hobbies23ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             hobbies23ban.UseVisualStyleBackColor = false;
+            hobbies23ban.Click += new System.EventHandler(this.hobbies23_Click);
             // 
             // msg23ban
             // 
@@ -119,12 +123,14 @@
             msg23ban.Text = "+";
             msg23ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             msg23ban.UseVisualStyleBackColor = false;
+            msg23ban.Click += new System.EventHandler(this.msg23_Click);
             // 
             // Form23
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::portfolio.Properties.Resources._0F37B40D_A6D7_4E9D_AFFB_988FADAA5468_;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1022, 513);
             this.Controls.Add(msg23ban);
             this.Controls.Add(hobbies23ban);
@@ -132,6 +138,7 @@
             this.Controls.Add(skills23ban);
             this.Controls.Add(info23ban);
             this.Controls.Add(back23ban);
+            this.DoubleBuffered = true;
             this.Name = "Form23";
             this.Text = "Form23";
             this.ResumeLayout(false);

@@ -57,6 +57,7 @@
             back7sua.Text = "+";
             back7sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             back7sua.UseVisualStyleBackColor = false;
+            back7sua.Click += new System.EventHandler(this.back7sua_Click);
             // 
             // msg7sua
             // 
@@ -70,6 +71,7 @@
             msg7sua.TabIndex = 9;
             msg7sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             msg7sua.UseVisualStyleBackColor = false;
+            msg7sua.Click += new System.EventHandler(this.msg7sua_Click);
             // 
             // hobbies7sua
             // 
@@ -83,6 +85,7 @@
             hobbies7sua.TabIndex = 8;
             hobbies7sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             hobbies7sua.UseVisualStyleBackColor = false;
+            hobbies7sua.Click += new System.EventHandler(this.hobbies7sua_Click);
             // 
             // educ7sua
             // 
@@ -96,6 +99,7 @@
             educ7sua.TabIndex = 7;
             educ7sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             educ7sua.UseVisualStyleBackColor = false;
+            educ7sua.Click += new System.EventHandler(this.educ7sua_Click);
             // 
             // skills7sua
             // 
@@ -109,6 +113,7 @@
             skills7sua.TabIndex = 6;
             skills7sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             skills7sua.UseVisualStyleBackColor = false;
+            skills7sua.Click += new System.EventHandler(this.skills7sua_Click);
             // 
             // info7sua
             // 
@@ -122,9 +127,12 @@
             info7sua.TabIndex = 5;
             info7sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             info7sua.UseVisualStyleBackColor = false;
+            info7sua.Click += new System.EventHandler(this.info7sua_Click);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Image = global::portfolio.Properties.Resources.suarezinfo;
             this.pictureBox1.Location = new System.Drawing.Point(0, -2);
             this.pictureBox1.Name = "pictureBox1";
@@ -137,7 +145,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1022, 542);
+            this.ClientSize = new System.Drawing.Size(1147, 645);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Controls.Add(back7sua);
             this.Controls.Add(msg7sua);
             this.Controls.Add(hobbies7sua);

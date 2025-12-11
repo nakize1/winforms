@@ -54,6 +54,7 @@
             back25ban.Text = "+";
             back25ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             back25ban.UseVisualStyleBackColor = false;
+            back25ban.Click += new System.EventHandler(this.back25_Click);
             // 
             // info25ban
             // 
@@ -67,6 +68,7 @@
             info25ban.Text = "+";
             info25ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             info25ban.UseVisualStyleBackColor = false;
+            info25ban.Click += new System.EventHandler(this.info25_Click);
             // 
             // skills25ban
             // 
@@ -80,6 +82,7 @@
             skills25ban.Text = "+";
             skills25ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             skills25ban.UseVisualStyleBackColor = false;
+            skills25ban.Click += new System.EventHandler(this.skills25_Click);
             // 
             // educ25ban
             // 
@@ -93,6 +96,7 @@
             educ25ban.Text = "+";
             educ25ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             educ25ban.UseVisualStyleBackColor = false;
+            educ25ban.Click += new System.EventHandler(this.educ25_Click);
             // 
             // hobbies25ban
             // 
@@ -106,6 +110,7 @@
             hobbies25ban.Text = "+";
             hobbies25ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             hobbies25ban.UseVisualStyleBackColor = false;
+            hobbies25ban.Click += new System.EventHandler(this.hobbies25_Click);
             // 
             // msg25ban
             // 
@@ -119,12 +124,14 @@
             msg25ban.Text = "+";
             msg25ban.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             msg25ban.UseVisualStyleBackColor = false;
+            msg25ban.Click += new System.EventHandler(this.msg25_Click);
             // 
             // Form25
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::portfolio.Properties.Resources._F1C6BE03_15F2_4B39_93C2_06AC97B98597_;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1026, 522);
             this.Controls.Add(msg25ban);
             this.Controls.Add(hobbies25ban);
@@ -132,6 +139,7 @@
             this.Controls.Add(skills25ban);
             this.Controls.Add(info25ban);
             this.Controls.Add(back25ban);
+            this.DoubleBuffered = true;
             this.Name = "Form25";
             this.Text = "Form25";
             this.ResumeLayout(false);

@@ -40,6 +40,8 @@
             this.mhika1fighter = new System.Windows.Forms.PictureBox();
             this.sua1fighter = new System.Windows.Forms.PictureBox();
             this.bont1fighter = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.logoutBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ban1fighter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cj1fighter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mhika1fighter)).BeginInit();
@@ -73,6 +75,7 @@
             this.button1.TabIndex = 11;
             this.button1.Text = "BONTO";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -86,6 +89,7 @@
             this.button2.TabIndex = 12;
             this.button2.Text = "SUAREZ";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -99,6 +103,7 @@
             this.button3.TabIndex = 13;
             this.button3.Text = "MHIKA";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -112,6 +117,7 @@
             this.button4.TabIndex = 14;
             this.button4.Text = "C-JHAY";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -158,6 +164,7 @@
             this.mhika1fighter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.mhika1fighter.TabIndex = 3;
             this.mhika1fighter.TabStop = false;
+            this.mhika1fighter.Click += new System.EventHandler(this.mhika1fighter_Click);
             // 
             // sua1fighter
             // 
@@ -183,12 +190,44 @@
             this.bont1fighter.TabStop = false;
             this.bont1fighter.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Haettenschweiler", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(929, 29);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(196, 32);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Welcome, <user>!";
+            this.label2.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // logoutBtn
+            // 
+            this.logoutBtn.BackColor = System.Drawing.Color.Black;
+            this.logoutBtn.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.logoutBtn.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.logoutBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DodgerBlue;
+            this.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logoutBtn.Font = new System.Drawing.Font("Haettenschweiler", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoutBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.logoutBtn.Location = new System.Drawing.Point(949, 73);
+            this.logoutBtn.Name = "logoutBtn";
+            this.logoutBtn.Size = new System.Drawing.Size(154, 37);
+            this.logoutBtn.TabIndex = 16;
+            this.logoutBtn.Text = "Log Out";
+            this.logoutBtn.UseVisualStyleBackColor = false;
+            this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(1147, 645);
+            this.Controls.Add(this.logoutBtn);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -199,6 +238,7 @@
             this.Controls.Add(this.mhika1fighter);
             this.Controls.Add(this.sua1fighter);
             this.Controls.Add(this.bont1fighter);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -225,6 +265,8 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button logoutBtn;
     }
 }
 

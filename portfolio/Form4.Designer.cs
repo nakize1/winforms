@@ -54,6 +54,7 @@
             info4bon.Text = "+";
             info4bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             info4bon.UseVisualStyleBackColor = false;
+            info4bon.Click += new System.EventHandler(this.info4bon_Click);
             // 
             // skills4bon
             // 
@@ -67,6 +68,7 @@
             skills4bon.Text = "+";
             skills4bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             skills4bon.UseVisualStyleBackColor = false;
+            skills4bon.Click += new System.EventHandler(this.skills4bon_Click);
             // 
             // educ4bon
             // 
@@ -80,6 +82,7 @@
             educ4bon.Text = "+";
             educ4bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             educ4bon.UseVisualStyleBackColor = false;
+            educ4bon.Click += new System.EventHandler(this.educ4bon_Click);
             // 
             // hobbies4bon
             // 
@@ -93,6 +96,7 @@
             hobbies4bon.Text = "+";
             hobbies4bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             hobbies4bon.UseVisualStyleBackColor = false;
+            hobbies4bon.Click += new System.EventHandler(this.hobbies4bon_Click);
             // 
             // msg4bon
             // 
@@ -106,6 +110,7 @@
             msg4bon.Text = "+";
             msg4bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             msg4bon.UseVisualStyleBackColor = false;
+            msg4bon.Click += new System.EventHandler(this.msg4bon_Click);
             // 
             // back4bon
             // 
@@ -119,13 +124,15 @@
             back4bon.Text = "+";
             back4bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             back4bon.UseVisualStyleBackColor = false;
+            back4bon.Click += new System.EventHandler(this.back4bon_Click);
             // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::portfolio.Properties.Resources._327E7219_55A3_4F9A_A618_245B57ED3CE5_;
-            this.ClientSize = new System.Drawing.Size(1104, 614);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(1147, 645);
             this.Controls.Add(back4bon);
             this.Controls.Add(msg4bon);
             this.Controls.Add(hobbies4bon);

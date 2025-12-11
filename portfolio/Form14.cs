@@ -16,5 +16,38 @@ namespace portfolio
         {
             InitializeComponent();
         }
+
+        MainForm main = Application.OpenForms.OfType<MainForm>().FirstOrDefault();
+
+        private void back14mh_Click(object sender, EventArgs e)
+        {
+            if (main != null) main.SwitchToForm(new Form1());
+            else { var f1 = new Form1(); f1.Show(); this.Hide(); }
+        }
+
+        private void info14mh_Click(object sender, EventArgs e)
+        {
+            if (main != null) main.SwitchToForm(new Form12());
+        }
+
+        private void skills14mh_Click(object sender, EventArgs e)
+        {
+            if (main != null) main.SwitchToForm(new Form13());
+        }
+
+        private void educ14mh_Click(object sender, EventArgs e)
+        {
+            if (main != null) main.SwitchToForm(new Form14());
+        }
+
+        private void hobbies14mh_Click(object sender, EventArgs e)
+        {
+            if (main != null) main.SwitchToForm(new Form15());
+        }
+
+        private void msg14mh_Click(object sender, EventArgs e)
+        {
+            if (main != null) main.SwitchToForm(new Form16());
+        }
     }
 }

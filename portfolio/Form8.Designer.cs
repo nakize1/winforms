@@ -56,6 +56,7 @@
             skills8sua.TabIndex = 15;
             skills8sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             skills8sua.UseVisualStyleBackColor = false;
+            skills8sua.Click += new System.EventHandler(this.skills8sua_Click);
             // 
             // msg8sua
             // 
@@ -69,6 +70,7 @@
             msg8sua.TabIndex = 14;
             msg8sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             msg8sua.UseVisualStyleBackColor = false;
+            msg8sua.Click += new System.EventHandler(this.msg8sua_Click);
             // 
             // hobbies8sua
             // 
@@ -82,6 +84,7 @@
             hobbies8sua.TabIndex = 13;
             hobbies8sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             hobbies8sua.UseVisualStyleBackColor = false;
+            hobbies8sua.Click += new System.EventHandler(this.hobbies8sua_Click);
             // 
             // educ8sua
             // 
@@ -95,6 +98,7 @@
             educ8sua.TabIndex = 12;
             educ8sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             educ8sua.UseVisualStyleBackColor = false;
+            educ8sua.Click += new System.EventHandler(this.educ8sua_Click);
             // 
             // back8sua
             // 
@@ -109,6 +113,7 @@
             back8sua.Text = "+";
             back8sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             back8sua.UseVisualStyleBackColor = false;
+            back8sua.Click += new System.EventHandler(this.back8sua_Click);
             // 
             // info8sua
             // 
@@ -122,14 +127,15 @@
             info8sua.TabIndex = 16;
             info8sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             info8sua.UseVisualStyleBackColor = false;
+            info8sua.Click += new System.EventHandler(this.info8sua_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::portfolio.Properties.Resources.suarezskills;
             this.pictureBox1.Location = new System.Drawing.Point(1, -1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1023, 539);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.Size = new System.Drawing.Size(1147, 645);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -137,7 +143,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1023, 538);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(1147, 645);
             this.Controls.Add(info8sua);
             this.Controls.Add(skills8sua);
             this.Controls.Add(msg8sua);

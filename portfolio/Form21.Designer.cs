@@ -54,6 +54,7 @@
             back21cj.Text = "+";
             back21cj.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             back21cj.UseVisualStyleBackColor = false;
+            back21cj.Click += new System.EventHandler(this.back21_Click);
             // 
             // info21cj
             // 
@@ -67,6 +68,7 @@
             info21cj.Text = "+";
             info21cj.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             info21cj.UseVisualStyleBackColor = false;
+            info21cj.Click += new System.EventHandler(this.info21_Click);
             // 
             // skills21cj
             // 
@@ -80,6 +82,7 @@
             skills21cj.Text = "+";
             skills21cj.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             skills21cj.UseVisualStyleBackColor = false;
+            skills21cj.Click += new System.EventHandler(this.skills21_Click);
             // 
             // educ21cj
             // 
@@ -93,6 +96,7 @@
             educ21cj.Text = "+";
             educ21cj.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             educ21cj.UseVisualStyleBackColor = false;
+            educ21cj.Click += new System.EventHandler(this.educ21_Click);
             // 
             // hobbies21cj
             // 
@@ -106,6 +110,7 @@
             hobbies21cj.Text = "+";
             hobbies21cj.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             hobbies21cj.UseVisualStyleBackColor = false;
+            hobbies21cj.Click += new System.EventHandler(this.hobbies21_Click);
             // 
             // msg21cj
             // 
@@ -119,12 +124,14 @@
             msg21cj.Text = "+";
             msg21cj.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             msg21cj.UseVisualStyleBackColor = false;
+            msg21cj.Click += new System.EventHandler(this.msg21_Click);
             // 
             // Form21
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::portfolio.Properties.Resources._277663D6_2E38_4FCB_AE58_D1AF39D4E8F0_;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1009, 533);
             this.Controls.Add(msg21cj);
             this.Controls.Add(hobbies21cj);
@@ -132,6 +139,7 @@
             this.Controls.Add(skills21cj);
             this.Controls.Add(info21cj);
             this.Controls.Add(back21cj);
+            this.DoubleBuffered = true;
             this.Name = "Form21";
             this.Text = "Form21";
             this.ResumeLayout(false);

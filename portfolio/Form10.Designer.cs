@@ -54,6 +54,7 @@
             info10sua.Text = "+";
             info10sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             info10sua.UseVisualStyleBackColor = false;
+            info10sua.Click += new System.EventHandler(this.info10sua_Click);
             // 
             // skills10sua
             // 
@@ -67,6 +68,7 @@
             skills10sua.Text = "+";
             skills10sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             skills10sua.UseVisualStyleBackColor = false;
+            skills10sua.Click += new System.EventHandler(this.skills10sua_Click);
             // 
             // educ10sua
             // 
@@ -80,6 +82,7 @@
             educ10sua.Text = "+";
             educ10sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             educ10sua.UseVisualStyleBackColor = false;
+            educ10sua.Click += new System.EventHandler(this.educ10sua_Click);
             // 
             // hobbies10sua
             // 
@@ -93,6 +96,7 @@
             hobbies10sua.Text = "+";
             hobbies10sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             hobbies10sua.UseVisualStyleBackColor = false;
+            hobbies10sua.Click += new System.EventHandler(this.hobbies10sua_Click);
             // 
             // msg10sua
             // 
@@ -106,6 +110,7 @@
             msg10sua.Text = "+";
             msg10sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             msg10sua.UseVisualStyleBackColor = false;
+            msg10sua.Click += new System.EventHandler(this.msg10sua_Click);
             // 
             // back10sua
             // 
@@ -119,12 +124,14 @@
             back10sua.Text = "+";
             back10sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             back10sua.UseVisualStyleBackColor = false;
+            back10sua.Click += new System.EventHandler(this.back10sua_Click);
             // 
             // Form10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::portfolio.Properties.Resources._32C63EE7_2412_47B8_BB2B_8EAD5DBADA11_;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1081, 589);
             this.Controls.Add(back10sua);
             this.Controls.Add(msg10sua);
@@ -132,6 +139,7 @@
             this.Controls.Add(educ10sua);
             this.Controls.Add(skills10sua);
             this.Controls.Add(info10sua);
+            this.DoubleBuffered = true;
             this.Name = "Form10";
             this.Text = "Form10";
             this.ResumeLayout(false);

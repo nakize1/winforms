@@ -47,65 +47,70 @@
             info2bon.BackColor = System.Drawing.Color.Transparent;
             info2bon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             info2bon.ForeColor = System.Drawing.Color.DimGray;
-            info2bon.Location = new System.Drawing.Point(668, 280);
+            info2bon.Location = new System.Drawing.Point(656, 280);
             info2bon.Name = "info2bon";
             info2bon.Size = new System.Drawing.Size(75, 62);
             info2bon.TabIndex = 0;
             info2bon.Text = "+";
             info2bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             info2bon.UseVisualStyleBackColor = false;
+            info2bon.Click += new System.EventHandler(this.info2bon_Click);
             // 
             // skills2bon
             // 
             skills2bon.BackColor = System.Drawing.Color.Transparent;
             skills2bon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             skills2bon.ForeColor = System.Drawing.Color.Gray;
-            skills2bon.Location = new System.Drawing.Point(752, 280);
+            skills2bon.Location = new System.Drawing.Point(737, 280);
             skills2bon.Name = "skills2bon";
             skills2bon.Size = new System.Drawing.Size(75, 62);
             skills2bon.TabIndex = 1;
             skills2bon.Text = "+";
             skills2bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             skills2bon.UseVisualStyleBackColor = false;
+            skills2bon.Click += new System.EventHandler(this.skills2bon_Click);
             // 
             // educ2bon
             // 
             educ2bon.BackColor = System.Drawing.Color.Transparent;
             educ2bon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             educ2bon.ForeColor = System.Drawing.Color.Gray;
-            educ2bon.Location = new System.Drawing.Point(840, 280);
+            educ2bon.Location = new System.Drawing.Point(827, 280);
             educ2bon.Name = "educ2bon";
             educ2bon.Size = new System.Drawing.Size(75, 62);
             educ2bon.TabIndex = 2;
             educ2bon.Text = "+";
             educ2bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             educ2bon.UseVisualStyleBackColor = false;
+            educ2bon.Click += new System.EventHandler(this.educ2bon_Click);
             // 
             // hobbies2bon
             // 
             hobbies2bon.BackColor = System.Drawing.Color.Transparent;
             hobbies2bon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             hobbies2bon.ForeColor = System.Drawing.Color.Gray;
-            hobbies2bon.Location = new System.Drawing.Point(927, 280);
+            hobbies2bon.Location = new System.Drawing.Point(908, 280);
             hobbies2bon.Name = "hobbies2bon";
             hobbies2bon.Size = new System.Drawing.Size(75, 62);
             hobbies2bon.TabIndex = 3;
             hobbies2bon.Text = "+";
             hobbies2bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             hobbies2bon.UseVisualStyleBackColor = false;
+            hobbies2bon.Click += new System.EventHandler(this.hobbies2bon_Click);
             // 
             // msg2bon
             // 
             msg2bon.BackColor = System.Drawing.Color.Transparent;
             msg2bon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             msg2bon.ForeColor = System.Drawing.Color.DarkGray;
-            msg2bon.Location = new System.Drawing.Point(1011, 280);
+            msg2bon.Location = new System.Drawing.Point(989, 280);
             msg2bon.Name = "msg2bon";
             msg2bon.Size = new System.Drawing.Size(75, 62);
             msg2bon.TabIndex = 4;
             msg2bon.Text = "+";
             msg2bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             msg2bon.UseVisualStyleBackColor = false;
+            msg2bon.Click += new System.EventHandler(this.msg2bon_Click);
             // 
             // back2bon
             // 
@@ -119,6 +124,7 @@
             back2bon.Text = "+";
             back2bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             back2bon.UseVisualStyleBackColor = false;
+            back2bon.Click += new System.EventHandler(this.back2bon_Click);
             // 
             // Form2
             // 
@@ -126,6 +132,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::portfolio.Properties.Resources.bontoall;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1129, 598);
             this.Controls.Add(back2bon);
             this.Controls.Add(msg2bon);
@@ -133,6 +140,7 @@
             this.Controls.Add(educ2bon);
             this.Controls.Add(skills2bon);
             this.Controls.Add(info2bon);
+            this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.SystemColors.Control;
             this.MaximizeBox = false;
             this.Name = "Form2";

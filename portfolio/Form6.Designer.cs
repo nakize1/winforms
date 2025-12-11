@@ -54,6 +54,7 @@
             info6bon.Text = "+";
             info6bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             info6bon.UseVisualStyleBackColor = false;
+            info6bon.Click += new System.EventHandler(this.info6bon_Click);
             // 
             // skills6bon
             // 
@@ -67,6 +68,7 @@
             skills6bon.Text = "+";
             skills6bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             skills6bon.UseVisualStyleBackColor = false;
+            skills6bon.Click += new System.EventHandler(this.skills6bon_Click);
             // 
             // educ6bon
             // 
@@ -80,6 +82,7 @@
             educ6bon.Text = "+";
             educ6bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             educ6bon.UseVisualStyleBackColor = false;
+            educ6bon.Click += new System.EventHandler(this.educ6bon_Click);
             // 
             // hobbies6bon
             // 
@@ -93,6 +96,7 @@
             hobbies6bon.Text = "+";
             hobbies6bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             hobbies6bon.UseVisualStyleBackColor = false;
+            hobbies6bon.Click += new System.EventHandler(this.hobbies6bon_Click);
             // 
             // msg6bon
             // 
@@ -106,6 +110,7 @@
             msg6bon.Text = "+";
             msg6bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             msg6bon.UseVisualStyleBackColor = false;
+            msg6bon.Click += new System.EventHandler(this.msg6bon_Click);
             // 
             // back6bon
             // 
@@ -119,19 +124,22 @@
             back6bon.Text = "+";
             back6bon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             back6bon.UseVisualStyleBackColor = false;
+            back6bon.Click += new System.EventHandler(this.back6bon_Click);
             // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::portfolio.Properties.Resources._7FBBF1F8_8BE7_4E5E_BE21_EE0A37644770_;
-            this.ClientSize = new System.Drawing.Size(1022, 537);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(1147, 645);
             this.Controls.Add(back6bon);
             this.Controls.Add(msg6bon);
             this.Controls.Add(hobbies6bon);
             this.Controls.Add(educ6bon);
             this.Controls.Add(skills6bon);
             this.Controls.Add(info6bon);
+            this.DoubleBuffered = true;
             this.Name = "Form6";
             this.Text = "Form6";
             this.ResumeLayout(false);
